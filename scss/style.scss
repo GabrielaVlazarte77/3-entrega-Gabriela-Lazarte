@@ -1,0 +1,17 @@
+@import "./abstract/variables";
+@import "./abstract/mixin";
+@import "./abstract/animaciones";
+@import "./abstract/maps";
+@import "./components/footer";
+@import "./components/header";
+@import "./components/main";
+@import "./components/discografia";
+@import "./components/merch";
+
+p{
+    text-align: $centerposition;
+    padding: $pdn;
+}
+
+@import "./abstract/extend";
+

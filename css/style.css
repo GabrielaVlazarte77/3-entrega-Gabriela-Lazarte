@@ -1,0 +1,69 @@
+.footer-basic {
+  background-color: rgb(242, 216, 242);
+}
+.footer-basic .social {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem;
+}
+.footer-basic .social i {
+  font-size: 2.6rem;
+  margin: 1rem;
+}
+.footer-basic .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+.footer-basic .list-inline {
+  text-align: center;
+}
+.footer-basic .list-inline li {
+  margin: 0 1rem;
+}
+
+h1 {
+  text-align: center;
+  padding: 1rem;
+}
+
+.principal_img {
+  text-align: center;
+}
+.principal_img img:hover {
+  transform: scale(0.9);
+  transition: all ease-in 0.5s;
+}
+@media (max-width: 420px) {
+  .principal_img img {
+    width: 300px !important;
+    height: auto !important;
+  }
+}
+
+.img-discografia img:hover {
+  transform: scale(0.9);
+  transition: all ease-in 0.5s;
+}
+
+.img-merch img:hover {
+  transform: scale(0.9);
+  transition: all ease-in 0.5s;
+}
+
+p {
+  text-align: center;
+  padding: 1rem;
+}
+
+.principal_img img {
+  width: 400px;
+  height: 250px;
+}
+
+/*# sourceMappingURL=style.css.map */

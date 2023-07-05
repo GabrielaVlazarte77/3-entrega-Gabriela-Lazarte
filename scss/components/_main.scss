@@ -1,0 +1,17 @@
+
+.principal_img{
+    text-align: $centerposition;
+    img{
+        @extend %imgprincipal;
+        &:hover{
+            transform: $transform;
+            transition: $transition;
+        }
+
+        @media (max-width:420px){
+            width: $img-media !important;
+            height: auto !important;
+        }
+    }
+    
+}

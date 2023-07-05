@@ -1,0 +1,29 @@
+
+
+.footer-basic{
+    background-color: $color-primario;
+    .social{
+        display: map-get($d-flex , disp );
+        justify-content: map-get($d-flex , justi);
+        flex-direction : map-get($d-flex , direccion );
+        align-items: map-get($d-flex , alinear );
+        padding: $pdn;
+        i{
+            font-size: $icontamano*1.3;
+            margin: $pdn;
+        }
+    }
+    .copyright{
+        @include copyrightfooter(15px,center,13px,#aaa,0,20px);  
+    }
+    .list-inline{
+        text-align: $centerposition;
+        li{
+            margin: 0 $pdn;
+        }
+    }
+}
+
+
+
+

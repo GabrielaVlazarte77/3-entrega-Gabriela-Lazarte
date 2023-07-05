@@ -1,0 +1,8 @@
+@mixin copyrightfooter($mgt,$txtalign,$fnsize,$color,$mgb,$pd){
+    margin-top: $mgt;
+    text-align: $txtalign;
+    font-size: $fnsize;
+    color: $color;  
+    margin-bottom: $mgb;
+    padding-bottom: $pd;
+}

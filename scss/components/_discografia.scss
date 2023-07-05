@@ -1,0 +1,9 @@
+
+.img-discografia{
+    img{
+        &:hover{
+            transform: $transform;
+            transition: $transition;
+        }
+    }
+}
