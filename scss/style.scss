@@ -1,4 +1,7 @@
 @import "./abstract/variables";
+body{
+    font-family: $tipo-letra;
+}
 @import "./abstract/mixin";
 @import "./abstract/animaciones";
 @import "./abstract/maps";
@@ -12,6 +15,11 @@ p{
     text-align: $centerposition;
     padding: $pdn;
 }
-
+.video-vida{
+    iframe{
+        width: calc($anchomax/2);
+        height: $img-media;
+    }
+}
 @import "./abstract/extend";
 

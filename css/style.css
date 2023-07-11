@@ -1,3 +1,7 @@
+body {
+  font-family: georgia;
+}
+
 .footer-basic {
   background-color: rgb(242, 216, 242);
 }
@@ -59,6 +63,11 @@ h1 {
 p {
   text-align: center;
   padding: 1rem;
+}
+
+.video-vida iframe {
+  width: 50%;
+  height: 300px;
 }
 
 .principal_img img {
